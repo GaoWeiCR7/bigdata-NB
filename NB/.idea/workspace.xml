@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="predict:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d5cedac4-af99-4344-8e7b-b7033604b291" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fFaz8eAlPr7RfRxmFtjblLvuxK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/hadoop_installs/hadoop-2.7.1/share/hadoop/common/lib" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Application.evaluatemain">
+    <configuration name="evaluatemain" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="evaluatemain" />
+      <module name="NB" />
+      <option name="PROGRAM_PARAMETERS" value="testoutput/NB testoutput/NBrate" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="predictmain" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="predictionmain" />
+      <module name="NB" />
+      <option name="PROGRAM_PARAMETERS" value="testinput testoutput trainoutput/wordtotal trainoutput/wordcount" />
+      <option name="VM_PARAMETERS" value="-Xmx9000m" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="wordcountmain" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="wordcountmain" />
+      <module name="NB" />
+      <option name="PROGRAM_PARAMETERS" value="traininput trainoutput" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="wordtotalmain" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="wordtotalmain" />
+      <module name="NB" />
+      <option name="PROGRAM_PARAMETERS" value="traininput trainoutput" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.wordtotalmain" />
+      <item itemvalue="Application.wordcountmain" />
+      <item itemvalue="Application.predictmain" />
+      <item itemvalue="Application.evaluatemain" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5cedac4-af99-4344-8e7b-b7033604b291" name="Default Changelist" comment="" />
+      <created>1595816554009</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595816554009</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="371" y="99" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595844663449">
+      <screen x="0" y="28" width="1718" height="827" />
+    </state>
+    <state x="371" y="99" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.28.1718.827@0.28.1718.827" timestamp="1595844663449" />
+    <state x="591" y="226" width="527" height="433" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1595844579451">
+      <screen x="0" y="28" width="1718" height="827" />
+    </state>
+    <state x="591" y="226" width="527" height="433" key="#com.intellij.ide.util.TreeClassChooserDialog/0.28.1718.827@0.28.1718.827" timestamp="1595844579451" />
+    <state x="697" y="334" width="315" height="218" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1595816949460">
+      <screen x="0" y="28" width="1718" height="827" />
+    </state>
+    <state x="697" y="334" width="315" height="218" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.28.1718.827@0.28.1718.827" timestamp="1595816949460" />
+    <state x="596" y="153" width="509" height="579" key="DetectedRootsChooserDialog" timestamp="1595817159003">
+      <screen x="0" y="28" width="1718" height="827" />
+    </state>
+    <state x="596" y="153" width="509" height="579" key="DetectedRootsChooserDialog/0.28.1718.827@0.28.1718.827" timestamp="1595817159003" />
+    <state x="638" y="199" width="426" height="486" key="FileChooserDialogImpl" timestamp="1595817227589">
+      <screen x="0" y="28" width="1718" height="827" />
+    </state>
+    <state x="638" y="199" width="426" height="486" key="FileChooserDialogImpl/0.28.1718.827@0.28.1718.827" timestamp="1595817227589" />
+    <state width="1668" height="198" key="GridCell.Tab.0.bottom" timestamp="1595844676655">
+      <screen x="0" y="28" width="1718" height="827" />
+    </state>
+    <state width="1668" height="198" key="GridCell.Tab.0.bottom/0.28.1718.827@0.28.1718.827" timestamp="1595844676655" />
+    <state width="1668" height="198" key="GridCell.Tab.0.center" timestamp="1595844676655">
+      <screen x="0" y="28" width="1718" height="827" />
+    </state>
+    <state width="1668" height="198" key="GridCell.Tab.0.center/0.28.1718.827@0.28.1718.827" timestamp="1595844676655" />
+    <state width="1668" height="198" key="GridCell.Tab.0.left" timestamp="1595844676654">
+      <screen x="0" y="28" width="1718" height="827" />
+    </state>
+    <state width="1668" height="198" key="GridCell.Tab.0.left/0.28.1718.827@0.28.1718.827" timestamp="1595844676654" />
+    <state width="1668" height="198" key="GridCell.Tab.0.right" timestamp="1595844676655">
+      <screen x="0" y="28" width="1718" height="827" />
+    </state>
+    <state width="1668" height="198" key="GridCell.Tab.0.right/0.28.1718.827@0.28.1718.827" timestamp="1595844676655" />
+    <state x="342" y="28" width="1026" height="827" key="SettingsEditor" timestamp="1595844553143">
+      <screen x="0" y="28" width="1718" height="827" />
+    </state>
+    <state x="342" y="28" width="1026" height="827" key="SettingsEditor/0.28.1718.827@0.28.1718.827" timestamp="1595844553143" />
+  </component>
+</project>
