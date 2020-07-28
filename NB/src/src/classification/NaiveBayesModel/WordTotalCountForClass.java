@@ -64,7 +64,6 @@ public class WordTotalCountForClass {
                 sum += value.get();
             }
             intWritable.set(sum);
-            Prediction.wordTotalNumForClass.put(key.toString(), sum);
             context.write(key, intWritable);
         }
     }

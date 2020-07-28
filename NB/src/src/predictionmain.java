@@ -1,4 +1,5 @@
 import Utils.FileUtils;
+import classification.NaiveBayesModel.NBMInputFormat;
 import classification.NaiveBayesModel.WordTotalCountForClass;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
@@ -28,6 +29,8 @@ public class predictionmain {
 
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(Text.class);
+
+        job.setInputFormatClass(NBMInputFormat.class);
 
         for(Path p:paths)
             FileInputFormat.addInputPath(job,p);
